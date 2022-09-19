@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TVSM</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="tvsm.css"/>
+	<script src="tvsm.js"></script>
+</head>
+<body>
+	<div class="content row">
+	<p>You don't have any shows! Try adding some:</p>
+	<form>
+		<div class="input-wrapper fullwidth">
+			<div>
+				<input autocomplete="off" required/>
+				<label>Name of the show</label>
+			</div>
+			<div><button>Add show</button></div>
+		</div>
+		<ul><ul></ul></ul>
+		<ul hidden><li><div>NAME</div><div>NEXT EP</div><div>PREV EP</div><div>NETWORK</div><div>STATUS</div><div>SEASONS</div><div>RATING</div></li></ul>
+	</form>
+	<div id="sel-menu"><div></div><button>Remove shows</button><button>Update shows</button></div>
+	<ul hidden></ul>
+	</div>
+</body>
+</html>
